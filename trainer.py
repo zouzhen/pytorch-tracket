@@ -148,7 +148,7 @@ class Trainer(object):
         # file_name = (
         #     "epoch_{}_best.pth.tar" if is_best else "epoch_{}.pth.tar") \
         #     .format(self.current_epoch)
-        file_name = "res18_aug_market_cuhk.pth.tar"
+        file_name = "res18_aug_market_cuhk.pth"
 
         state = {
             'epoch': self.current_epoch,
